@@ -2,7 +2,7 @@ Script for validating if a JSON file is valid and printing out the status of val
 
 Using the script
 
-> ** python scriptname.py jsonFileName.json**
+> python scriptname.py jsonFileName.json
 
 ``` py
 
