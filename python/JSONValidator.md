@@ -1,3 +1,11 @@
+Script for validating if a JSON file is valid and printing out the status of validation. Also prints out info of what is wrong.
+
+Using the script
+
+> ** python scriptname.py jsonFileName.json**
+
+``` py
+
 import os
 import sys
 import json
@@ -23,3 +31,5 @@ if sys.argv[1:]:
         print(fileArgument + ' file passed was not found:', fileArgument)
 else:
     print('Pass in argument with the script for file to check. Example: python JSONValidator.py Test.json')
+    
+```
